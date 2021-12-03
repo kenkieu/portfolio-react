@@ -3,7 +3,9 @@ import React from 'react';
 export default function AboutMe() {
   return (
     <div className="max-w-screen-lg mx-auto px-3 md:px-6">
-      <h1 className="border-solid border-l-4 border-green-800 border-opacity-40 text-3xl px-2 my-16">Hi, <br /> I&apos;m Ken, <br /> a <span className="italic">web developer.</span></h1>
+      <h1 className="border-solid border-l-4 border-green-800 border-opacity-40 text-3xl px-2 my-16">
+        Hi, <br /> I&apos;m Ken, <br /> a <span className="italic">web developer</span>
+      </h1>
         <img className="w-full rounded-lg" src="images/palomar-edit.png" alt="ken-palomar-park" />
         <div className="flex flex-wrap content-center my-16">
           <h2 className="text-center text-xl">About Me</h2>
