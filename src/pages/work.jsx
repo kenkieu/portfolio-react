@@ -24,7 +24,7 @@ export default function AboutMe() {
             Bloglab is a full stack web application for writer, bloggers, and
             avid journalists to document their adventures. It has the modern
             features of social media, such as likes and comments, and also
-            incorporates JWT Token for authentication, as well as Argon2 for
+            incorporates JWT Token for authentication, and Argon2 for
             hashing passwords.
           </p>
           <p>
