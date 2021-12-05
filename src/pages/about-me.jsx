@@ -35,27 +35,27 @@ export default function AboutMe() {
           attend if I was interested.
         </p>
         <p className="leading-8 my-4">
-          For 9 months, I juggled a 40 hour workweek while simultaneously committing
-          an additional 15 hours per week to learning the basics of HTML5, CSS3, and JavaScript.
-          When the time came, I parted ways with my
+          For 9 months, I juggled a 40 hour workweek while simultaneously
+          committing an additional 15 hours per week to learning the basics of
+          HTML5, CSS3, and JavaScript. When the time came, I parted ways with my
           current job, and began attending LearningFuze where I would dedicate
           800+ hours on coding during the 14 week program. By the end of the
           curriculum I had learned how to code a full stack application with
           PostgreSQL, Express.js, React.js, and Node.js.
           <br />
           <br />
-          Since my enrollment to LearningFuze, I have discovered how
-          coding is a diverse creative outlet that allows me
-          to bring my ideas to life, and it has become one of my favorite
-          hobbies. I often find myself thinking about new projects because they
-          provide me with the opportunity to learn and work with new
-          technologies.
+          Since my enrollment to LearningFuze, I have discovered how coding is a
+          diverse creative outlet that allows me to bring my ideas to life, and
+          it has become one of my favorite hobbies. I often find myself thinking
+          about new projects because they provide me with the opportunity to
+          learn and work with new technologies.
         </p>
         <p className="leading-8 my-4">
           My drive for learning and self-development has led me to a field that
           is not only rewarding, but also aligns with my core interests. I am
-          truly thankful to have this opportunity, and I am excited to apply my
-          skills at a great company.
+          truly thankful to have this opportunity &mdash; but this is only the
+          beginning of my journey. I can&apos;t wait to see what the future has
+          in store for me!
         </p>
         <p className="leading-8 my-4">
           <span className="font-semibold">Fun Fact:</span> I own 9 pairs of
