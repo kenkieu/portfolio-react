@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Footer(props) {
-
   function scrollTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  const {updatePath} = props
+  const { updatePath } = props;
 
   return (
     <footer

@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="max-w-screen-lg mx-auto px-3 md:px-6">
+    <div className="max-w-screen-xl mx-auto px-3 md:px-6">
       <h1 className="border-solid border-l-4 border-green-800 border-opacity-40 text-3xl px-2 my-16">
         My Work
       </h1>
@@ -24,8 +24,8 @@ export default function AboutMe() {
             Bloglab is a full stack web application for writer, bloggers, and
             avid journalists to document their adventures. It has the modern
             features of social media, such as likes and comments, and also
-            incorporates JWT Token for authentication, and Argon2 for
-            hashing passwords.
+            incorporates JWT Token for authentication, and Argon2 for hashing
+            passwords.
           </p>
           <p>
             <span className="font-semibold">Technologies: </span>HTML5, CSS3,
