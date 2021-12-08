@@ -1,14 +1,15 @@
-import {React} from 'react';
-import { Link } from 'react-router-dom';
+import { React } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
-
   const { updatePath, togglePath } = props;
-  const navItem = window.location.pathname === "/" ? 'Work' : 'About';
+  const navItem = window.location.pathname === "/" ? "Work" : "About";
 
   return (
-    <nav className="px-3 md:px-6 lg:px-12 py-3 bg-white shadow-sm flex justify-between items-center">
-      <h1 className="italic text-lg">Welcome to my Portfolio!</h1>
+    <nav className="px-3 md:px-6 lg:px-12 py-2 bg-white shadow-sm flex justify-between items-center">
+      <div className="text-md bg-black bold text-white py-1 px-6 font-mono">
+        KEN KIEU
+      </div>
       <ul className="flex">
         <li className="px-4 hover:text-black hover:text-opacity-70 duration-700">
           <Link
