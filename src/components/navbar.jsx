@@ -2,7 +2,7 @@ import { React } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
-  const { updatePath, togglePath } = props;
+  const { updatePath, togglePath, scrollTop } = props;
   const navItem = window.location.pathname === "/" ? "Work" : "About";
 
   return (
@@ -12,11 +12,12 @@ export default function Navbar(props) {
           to={"/"}
           onClick={() => {
             updatePath("/");
+            scrollTop();
           }}
           className="cursor-pointer"
         >
           <div className="text-md bg-black bold text-white py-1 px-4 font-cinzel tracking-widest transform hover:bg-green-800 hover:bg-opacity-50 duration-700">
-            KEN KIEU <i class="fas fa-laptop"></i>
+            KEN KIEU <i className="fas fa-laptop"></i>
           </div>
         </Link>
         <ul className="flex">
@@ -25,6 +26,7 @@ export default function Navbar(props) {
               to={togglePath}
               onClick={() => {
                 updatePath(togglePath);
+                scrollTop();
               }}
               className="cursor-pointer"
             >
