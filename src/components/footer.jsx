@@ -2,11 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Footer(props) {
-  function scrollTop() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-
-  const { updatePath } = props;
+  const { updatePath, scrollTop } = props;
 
   return (
     <footer
@@ -54,7 +50,7 @@ export default function Footer(props) {
         </a>
       </div>
       <button onClick={scrollTop} className=" m-auto flex justify-center mt-6">
-        <i className="cursor-pointer animate-bounce fas fa-angle-up text-2xl text-green-800 text-opacity-40 flex m-auto w-2/3 justify-center"></i>
+        <i className="cursor-pointer animate-bounce fas fa-angle-up text-2xl text-green-800 text-opacity-50 flex m-auto w-2/3 justify-center"></i>
       </button>
     </footer>
   );

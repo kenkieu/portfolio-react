@@ -1,18 +1,25 @@
-import {React, useState} from 'react';
+import { React, useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Navbar from './components/navbar';
-import Footer from './components/footer';
-import AboutMe from './pages/about-me';
-import Work from './pages/work';
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import AboutMe from "./pages/about-me";
+import Work from "./pages/work";
 
 export function App() {
-
   let [path, updatePath] = useState("/");
   const togglePath = path === "/" ? (path = "/work") : (path = "/");
 
+  function scrollTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   return (
     <>
-      <Navbar updatePath={updatePath} togglePath={togglePath} />
+      <Navbar
+        updatePath={updatePath}
+        togglePath={togglePath}
+        scrollTop={scrollTop}
+      />
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="work" element={<Work />} />
@@ -34,7 +41,7 @@ export function App() {
           }
         />
       </Routes>
-      <Footer updatePath={updatePath} />
+      <Footer updatePath={updatePath} scrollTop={scrollTop} />
     </>
   );
 }
