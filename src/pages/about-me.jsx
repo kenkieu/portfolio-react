@@ -1,11 +1,29 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 export default function AboutMe() {
   return (
     <div className="max-w-screen-xl mx-auto px-3 md:px-6 pt-12">
       <h1 className="border-solid border-l-4 border-green-800 border-opacity-50 text-3xl px-2 my-12">
-        Hi <br /> I&apos;m Ken <br /> a{" "}
-        <span className="italic">web developer</span>
+        I&apos;m Ken <br></br>
+        <span className="italic">
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("a traveler")
+                .pauseFor(1500)
+                .deleteAll()
+                .typeString("a tech enthusiast")
+                .pauseFor(1500)
+                .deleteAll()
+                .typeString("a gamer")
+                .pauseFor(1500)
+                .deleteAll()
+                .typeString("a web developer")
+                .start();
+            }}
+          />
+        </span>
       </h1>
       <img
         className="w-full rounded-lg"
