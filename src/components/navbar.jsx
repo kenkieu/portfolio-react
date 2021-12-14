@@ -7,7 +7,7 @@ export default function Navbar(props) {
 
   return (
     <div className="relative z-10">
-      <nav className="px-3 md:px-6 lg:px-12 py-2 bg-white shadow-sm flex justify-between items-center w-full fixed top-0">
+      <nav className="px-4 md:px-8 lg:px-12 py-2 bg-white shadow-sm flex justify-between items-center w-full fixed top-0">
         <Link
           to={"/"}
           onClick={() => {
@@ -16,12 +16,12 @@ export default function Navbar(props) {
           }}
           className="cursor-pointer"
         >
-          <div className="text-md bg-black bold text-white py-1 px-4 font-cinzel tracking-widest transform hover:bg-green-800 hover:bg-opacity-50 duration-700">
-            KEN KIEU <i className="fas fa-laptop"></i>
+          <div className="text-2xl bold transform hover:text-green-800 hover:text-opacity-50 duration-700">
+            <i class="fas fa-laptop-code"></i>
           </div>
         </Link>
         <ul className="flex">
-          <li className="px-4 hover:text-black hover:text-opacity-70 duration-700">
+          <li className="px-4 hover:text-green-800 hover:text-opacity-50 duration-700">
             <Link
               to={togglePath}
               onClick={() => {
@@ -33,7 +33,7 @@ export default function Navbar(props) {
               {navItem}
             </Link>
           </li>
-          <li className="hover:text-black hover:text-opacity-70 duration-700 pl-2">
+          <li className="hover:text-green-800 hover:text-opacity-50 duration-700 pl-2">
             <a href="#contact" className="cursor-pointer">
               Contact
             </a>
