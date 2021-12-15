@@ -16,8 +16,8 @@ export default function Navbar(props) {
           }}
           className="cursor-pointer"
         >
-          <div className="text-2xl bold transform hover:text-green-800 hover:text-opacity-50 duration-700">
-            <i class="fas fa-laptop-code"></i>
+          <div className="text-2xl font-semibold font-playfair italic transform hover:text-green-800 hover:text-opacity-50 duration-700">
+            Ken Kieu
           </div>
         </Link>
         <ul className="flex">

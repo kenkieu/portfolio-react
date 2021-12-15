@@ -3,9 +3,9 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div className="max-w-screen-xl mx-auto px-3 md:px-6 pt-12">
-      <h1 className="border-solid border-l-4 border-green-800 border-opacity-40 text-3xl px-2 my-16">
+      <h2 className="border-solid border-l-4 border-green-800 border-opacity-40 text-2xl px-2 my-16">
         My Work
-      </h1>
+      </h2>
       <div className="grid lg:grid-cols-2 gap-8">
         <a href="https://lfz-bloglab.herokuapp.com/">
           <img
@@ -16,9 +16,9 @@ export default function AboutMe() {
         </a>
         <div className="flex flex-wrap content-center pb-8 items-center">
           <a href="https://lfz-bloglab.herokuapp.com/">
-            <h2 className="text-center text-xl hover:text-black hover:text-opacity-70 duration-700">
+            <h3 className="text-center text-lg hover:text-black hover:text-opacity-70 duration-700">
               bloglab <i className="fas fa-external-link-alt text-xs"></i>
-            </h2>
+            </h3>
           </a>
           <p className="leading-8 my-4">
             Bloglab is a full stack web application for writer, bloggers, and
@@ -41,9 +41,9 @@ export default function AboutMe() {
         </a>
         <div className="flex flex-wrap content-center">
           <a href="https://kenkieu.github.io/tripify/">
-            <h2 className="text-center text-xl hover:text-black hover:text-opacity-70 duration-700">
+            <h3 className="text-center text-lg hover:text-black hover:text-opacity-70 duration-700">
               tripify <i className="fas fa-external-link-alt text-xs"></i>
-            </h2>
+            </h3>
           </a>
           <p className="leading-8 my-4">
             Tripify is an web application for travel enthusiast&apos;s who are
