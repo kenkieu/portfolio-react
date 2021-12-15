@@ -63,7 +63,7 @@ export default function AboutMe() {
         <p className="leading-8 my-4">
           My drive for learning and self-development has led me to a field that
           is not only rewarding but also aligns with my core interests. I am
-          truly thankful to have this opportunity &mdash;, but this is only the
+          truly thankful to have this opportunity &mdash; but this is only the
           beginning of my journey. I can&apos;t wait to see what the future has
           in store for me!
         </p>
