@@ -19,7 +19,7 @@ export default function AboutMe() {
             alt="bloglab-website"
           />
         </a>
-        <div className="flex flex-wrap content-center pb-8 items-center">
+        <div className="flex flex-wrap content-center pb-8 items-center text-gray-600">
           <a href="https://lfz-bloglab.herokuapp.com/">
             <h3 className="text-center text-lg hover:text-black hover:text-opacity-70 duration-700">
               bloglab <i className="fas fa-external-link-alt text-xs"></i>
@@ -44,7 +44,7 @@ export default function AboutMe() {
             alt="tripify-website"
           />
         </a>
-        <div className="flex flex-wrap content-center">
+        <div className="flex flex-wrap content-center text-gray-600">
           <a href="https://kenkieu.github.io/tripify/">
             <h3 className="text-center text-lg hover:text-black hover:text-opacity-70 duration-700">
               tripify <i className="fas fa-external-link-alt text-xs"></i>

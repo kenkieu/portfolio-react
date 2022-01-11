@@ -38,7 +38,7 @@ export default function AboutMe() {
             </h3>
           </div>
 
-          <div className="text-gray-500 max-w-5xl mx-auto pt-12">
+          <div className="text-gray-600 max-w-5xl mx-auto pt-12">
             <p className="leading-10">
               My name is Ken, but you can think of me as a traveler, tech
               enthusiast, and web developer! I attended college at California State
