@@ -3,9 +3,14 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div className="max-w-screen-xl mx-auto px-3 md:px-6 pt-12">
-      <h2 className="border-solid border-l-4 border-green-800 border-opacity-40 text-2xl px-2 my-16">
-        My Work
-      </h2>
+      <div className="text-center my-16">
+        <h2 className="leading-6 text-green-800 text-opacity-70 font-semibold tracking-wide uppercase">
+          Single Page Applications
+        </h2>
+        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          My Projects
+        </h3>
+      </div>
       <div className="grid lg:grid-cols-2 gap-8">
         <a href="https://lfz-bloglab.herokuapp.com/">
           <img

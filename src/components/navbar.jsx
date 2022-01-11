@@ -16,12 +16,12 @@ export default function Navbar(props) {
           }}
           className="cursor-pointer"
         >
-          <div className="text-2xl font-semibold font-playfair italic transform hover:text-green-800 hover:text-opacity-50 duration-700">
+          <div className="text-2xl font-semibold font-playfair italic transform md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
             Ken Kieu
           </div>
         </Link>
         <ul className="flex">
-          <li className="px-4 hover:text-green-800 hover:text-opacity-50 duration-700">
+          <li className="px-4 md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
             <Link
               to={togglePath}
               onClick={() => {
@@ -33,7 +33,7 @@ export default function Navbar(props) {
               {navItem}
             </Link>
           </li>
-          <li className="hover:text-green-800 hover:text-opacity-50 duration-700 pl-2">
+          <li className="md:hover:text-green-800 md:hover:text-opacity-50 duration-700 pl-2">
             <a href="#contact" className="cursor-pointer">
               Contact
             </a>

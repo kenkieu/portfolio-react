@@ -36,7 +36,7 @@ export default function Footer(props) {
             updatePath("/");
             scrollTop();
           }}
-          className="cursor-pointer hover:text-green-800 hover:text-opacity-50 duration-700"
+          className="cursor-pointer md:hover:text-green-800 md:hover:text-opacity-50 duration-700"
         >
           PORTFOLIO BY KEN KIEU
         </Link>
@@ -44,7 +44,7 @@ export default function Footer(props) {
       <div className="py-6 flex m-auto w-2/3 justify-center tracking-wide text-xs">
         <a
           href="https://drive.google.com/file/d/1PFx9hk1STBRZMtT0rwC0Oe9w70TmrxDr/view?usp=sharing"
-          className="hover:text-green-800 hover:text-opacity-50 duration-700"
+          className="md:hover:text-green-800 md:hover:text-opacity-50 duration-700"
         >
           VIEW RESUME
         </a>
