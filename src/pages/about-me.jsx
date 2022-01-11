@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 export default function AboutMe() {
   return (
     <div className="max-w-screen-xl mx-auto px-3 md:px-6 pt-12">
-      <h1 className="text-center text-3xl px-2 my-12">
+      <h1 className="text-center text-3xl px-2 my-16">
         Hello I&apos;m Ken,
         <span className="italic">
           <Typewriter
