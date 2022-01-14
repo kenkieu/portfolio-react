@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AboutMe() {
+export default function Work() {
   return (
     <div className="max-w-screen-xl mx-auto px-3 md:px-6 pt-12">
       <div className="text-center my-16">
@@ -21,7 +21,7 @@ export default function AboutMe() {
         </a>
         <div className="flex flex-wrap content-center pb-8 items-center text-gray-600">
           <a href="https://lfz-bloglab.herokuapp.com/">
-            <h3 className="text-center text-lg hover:text-black hover:text-opacity-70 duration-700">
+            <h3 className="text-center text-lg text-gray-700 hover:text-black font-semibold duration-700">
               bloglab <i className="fas fa-external-link-alt text-xs"></i>
             </h3>
           </a>
@@ -33,7 +33,7 @@ export default function AboutMe() {
             hashing passwords.
           </p>
           <p>
-            <span className="font-semibold">Technologies: </span>HTML5, CSS3,
+            <span className="font-semibold">Technologies: </span>HTML5, CSS3, JavaScript,
             PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox
           </p>
         </div>
@@ -46,7 +46,7 @@ export default function AboutMe() {
         </a>
         <div className="flex flex-wrap content-center text-gray-600">
           <a href="https://kenkieu.github.io/tripify/">
-            <h3 className="text-center text-lg hover:text-black hover:text-opacity-70 duration-700">
+            <h3 className="text-center text-lg text-gray-700 hover:text-black font-semibold duration-700">
               tripify <i className="fas fa-external-link-alt text-xs"></i>
             </h3>
           </a>
