@@ -6,7 +6,7 @@ import AboutMe from "./pages/about-me";
 import Work from "./pages/work";
 
 export function App() {
-  let [path, updatePath] = useState("/");
+  let [path, updatePath] = useState(window.location.pathname);
   const togglePath = path === "/" ? (path = "/work") : (path = "/");
 
   function scrollTop() {
@@ -26,7 +26,7 @@ export function App() {
         <Route
           path="*"
           element={
-            <main className="pt-8">
+            <main className="pt-20">
               <div className="flex flex-wrap justify-center">
                 <p className="text-center my-8 text-xl w-full">
                   Oops, did you lose your way?
