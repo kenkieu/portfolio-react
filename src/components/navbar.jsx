@@ -2,7 +2,6 @@ import { React } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
-  console.log(props)
   const { updatePath, togglePath, scrollTop } = props;
   const navItem = window.location.pathname === "/" ? "Work" : "About";
 
