@@ -16,7 +16,7 @@ export default function Project(props) {
         </a>
         <p className="leading-8 my-4">{props.description}</p>
         <p>
-          <span className="font-semibold">Technologies: </span>
+          <span className="font-semibold text-gray-700">Technologies: </span>
           {props.technologies}
         </p>
       </div>
