@@ -1,11 +1,11 @@
 export default function Project(props) {
   return (
-    <div className="grid lg:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <a href={props.website}>
         <img
           className="w-full rounded-lg shadow-md lg:transform hover:-translate-x-1 duration-700"
           src={props.image}
-          alt="bloglab-website"
+          alt="website"
         />
       </a>
       <div className="flex flex-wrap content-center text-gray-600">

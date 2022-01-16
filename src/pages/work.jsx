@@ -35,7 +35,7 @@ export default function Work() {
           My Projects
         </h3>
       </div>
-      <div className="grid gap-8">
+      <div className="grid gap-12">
         {projects.map(project => {
           return (
             <div key={project.title}>
