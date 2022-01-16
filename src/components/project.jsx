@@ -3,7 +3,7 @@ export default function Project(props) {
     <div className="grid lg:grid-cols-2 gap-8">
       <a href={props.website}>
         <img
-          className="w-full rounded-lg lg:transform hover:-translate-x-1 duration-700"
+          className="w-full rounded-lg shadow-md lg:transform hover:-translate-x-1 duration-700"
           src={props.image}
           alt="bloglab-website"
         />

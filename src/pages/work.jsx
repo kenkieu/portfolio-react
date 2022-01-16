@@ -4,6 +4,13 @@ import Project from "../components/project";
 export default function Work() {
   const projects = [
   {
+    title: "stratana",
+    description: "Stratana is a web application for businesses who need end to end strategy management and SaaS solutions.",
+    technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js, Node.js",
+    image: "images/stratana-preview.jpeg",
+    website:"https://stratana.com/"
+  },
+  {
     title: "bloglab",
     description: "Bloglab is a full stack web application for writer, bloggers, and avid journalists to document their adventures. It has the modern features of social media, such as likes and comments, and also incorporates JSON Web Token for authentication, and Argon2 for hashing passwords.",
     technologies: "HTML5, CSS3, PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox",
