@@ -68,7 +68,7 @@ export default function AboutMe() {
               in store for me!
             </p>
             <p className="leading-10">
-              <span className="font-semibold">Fun Fact:</span> I own 9 pairs of
+              <span className="font-semibold">Fun Fact:</span> I own 10 pairs of
               headphones, and my best pal is a Yorkie. &#128054;
             </p>
 

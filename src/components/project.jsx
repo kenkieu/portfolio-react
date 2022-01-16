@@ -8,7 +8,7 @@ export default function Project(props) {
           alt="bloglab-website"
         />
       </a>
-      <div className="flex flex-wrap content-center pb-8 items-center text-gray-600">
+      <div className="flex flex-wrap content-center items-start text-gray-600">
         <a href={props.website}>
           <h3 className="text-center text-lg text-gray-700 hover:text-black font-semibold duration-700">
             {props.title} <i className="fas fa-external-link-alt text-xs"></i>
