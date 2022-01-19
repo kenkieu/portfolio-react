@@ -49,7 +49,7 @@ export default function Footer(props) {
           VIEW RESUME
         </a>
       </div>
-      <button onClick={scrollTop} className=" m-auto flex justify-center">
+      <button onClick={scrollTop} className="mt-2 m-auto flex justify-center">
         <i className="cursor-pointer animate-bounce fas fa-angle-up text-2xl text-green-800 text-opacity-50 flex m-auto w-2/3 justify-center"></i>
       </button>
     </footer>
