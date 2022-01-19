@@ -40,7 +40,7 @@ export default function AboutMe() {
 
           <div className="text-gray-600 max-w-5xl mx-auto mt-12">
             <p className="leading-10">
-              My name is Ken, but you can consider me as a traveler, tech
+              My name is Ken, but you can consider me a traveler, tech
               enthusiast, and web developer! I attended college at California State
               University, Long Beach, and received a Bachelor's degree in
               Psychology. While I learned invaluable skills, such as patience,
@@ -67,11 +67,10 @@ export default function AboutMe() {
               beginning of my journey. I can&apos;t wait to see what the future has
               in store for me!
             </p>
-            <p className="leading-10">
+            <p className="leading-10 mt-12">
               <span className="font-semibold">Fun Fact:</span> I own 10 pairs of
-              headphones, and my best pal is a Yorkie. &#128054;
+              headphones, and my favorite travel destination is Disney World in Orlando, FL.
             </p>
-
           </div>
         </div>
       </div>

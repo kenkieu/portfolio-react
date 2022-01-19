@@ -7,7 +7,7 @@ export default function Footer(props) {
   return (
     <footer
       id="contact"
-      className="bg-gray-100 my-16 py-2 md:py-6 lg:py-8 shadow-sm"
+      className="bg-gray-100 mt-16 py-2 md:py-6 lg:py-8 shadow-sm"
     >
       <div className="flex m-auto w-2/3 justify-center my-12">
         <a
