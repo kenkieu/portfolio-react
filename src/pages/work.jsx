@@ -26,8 +26,8 @@ export default function Work() {
   },
 ]
   return (
-    <div className="max-w-screen-xl mx-auto px-3 md:px-6 pt-12">
-      <div className="text-center my-16">
+    <div className="max-w-screen-xl mx-auto px-3 md:px-6 mt-24">
+      <div className="text-center my-12">
         <h2 className="leading-6 text-green-800 text-opacity-70 font-semibold tracking-wide uppercase">
           Single Page Applications
         </h2>

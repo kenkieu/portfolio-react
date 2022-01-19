@@ -7,9 +7,9 @@ export default function Footer(props) {
   return (
     <footer
       id="contact"
-      className="bg-gray-100 mt-16 py-2 md:py-6 lg:py-8 shadow-sm"
+      className="bg-gray-100 mt-12 py-2 md:py-6 lg:py-8 shadow-sm"
     >
-      <div className="flex m-auto w-2/3 justify-center my-12">
+      <div className="flex m-auto w-2/3 justify-center my-8">
         <a
           href="mailto: kenkieu93@gmail.com"
           className="px-6 text-red-600 md:transform hover:-translate-y-0.5 duration-500"
@@ -49,7 +49,7 @@ export default function Footer(props) {
           VIEW RESUME
         </a>
       </div>
-      <button onClick={scrollTop} className=" m-auto flex justify-center mt-6">
+      <button onClick={scrollTop} className=" m-auto flex justify-center">
         <i className="cursor-pointer animate-bounce fas fa-angle-up text-2xl text-green-800 text-opacity-50 flex m-auto w-2/3 justify-center"></i>
       </button>
     </footer>

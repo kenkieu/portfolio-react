@@ -7,7 +7,7 @@ export default function Navbar(props) {
 
   return (
     <div className="relative z-10">
-      <nav className="px-4 md:px-8 lg:px-12 py-2 bg-white shadow-sm flex justify-between items-center w-full fixed top-0">
+      <nav className="px-4 md:px-8 lg:px-12 py-2 bg-white border-b flex justify-between items-center w-full fixed top-0">
         <Link
           to={"/"}
           onClick={() => {
@@ -16,11 +16,11 @@ export default function Navbar(props) {
           }}
           className="cursor-pointer"
         >
-          <div className="text-2xl tracking-wide font-semibold font-playfair italic transform md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
+          <div className="text-xl tracking-wide font-semibold font-playfair italic transform md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
             Ken Kieu
           </div>
         </Link>
-        <ul className="flex font-semibold">
+        <ul className="flex font-medium">
           <li className="px-4 md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
             <Link
               to={togglePath}
