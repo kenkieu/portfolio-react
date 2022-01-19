@@ -52,23 +52,19 @@ export default function AboutMe() {
             boot camp named LearningFuze, and he highly recommended I attend if I
             was interested.
           </p>
-          <p className="leading-10 my-12">
+          <p className="leading-10 my-8">
             For months I continued to work my full-time job while learning how to
             code on my own, and when the time came, I parted ways and enrolled in
             LearningFuze where I would dedicate 60-70 hours per week to
             programming. By the end of the curriculum, I had learned how to
-            develop a full-stack application utilizing PostgreSQL, Express.js,
-            React.js, and Node.js.
-          </p>
-
-          <p className="leading-10">
-            My drive for learning and self-development has led me to a field that
+            develop a full-stack application utilizing <span className="italic">PostgreSQL, Express.js,
+            React.js, and Node.js</span>. My drive for learning and self-development has led me to a field that
             is not only rewarding but also aligns with my core interests. I am
             truly thankful to have this opportunity &mdash; but this is only the
             beginning of my journey. I can&apos;t wait to see what the future has
             in store for me!
           </p>
-          <p className="leading-10 mt-12">
+          <p className="leading-10">
             <span className="font-semibold">Fun Fact:</span> I own 10 pairs of
             headphones, and my favorite travel destination is Disney World in Orlando, FL.
           </p>
