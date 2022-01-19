@@ -1,4 +1,5 @@
 # portfolio
+
 A portfolio to host my projects and resume.
 
 ## Technologies Used
@@ -21,7 +22,7 @@ Try the application live at [https://kenkieu.link/](https://kenkieu.link/)
 
 ## Preview
 
-![portfolio](server/public/images/portfolio-example.gif)
+![portfolio](public/images/portfolio-example.gif)
 
 ## Stretch Features
 
@@ -36,19 +37,19 @@ Try the application live at [https://kenkieu.link/](https://kenkieu.link/)
 
 1. Clone the repository.
 
-    ```shell
-    git clone https://github.com/kenkieu/portfolio-react.git
-    cd portfolio-react
-    ```
+   ```shell
+   git clone https://github.com/kenkieu/portfolio-react.git
+   cd portfolio-react
+   ```
 
 1. Install all dependencies with NPM.
 
-    ```shell
-    npm install
-    ```
+   ```shell
+   npm install
+   ```
 
 1. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
 
-    ```shell
-    npm run start
-    ```
+   ```shell
+   npm run start
+   ```
