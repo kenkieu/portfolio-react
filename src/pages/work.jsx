@@ -12,14 +12,14 @@ export default function Work() {
   },
   {
     title: "bloglab",
-    description: "Bloglab is a full stack web application for writer, bloggers, and avid journalists to document their adventures. It has the modern features of social media, such as likes and comments, and also incorporates JSON Web Token for authentication, and Argon2 for hashing passwords.",
+    description: "Bloglab is a full-stack web application for writers, bloggers, and avid journalists to document their adventures. It has the modern features of social media, such as likes and comments, and also incorporates JSON Web Token for authentication, and Argon2 for hashing passwords.",
     technologies: "HTML5, CSS3, PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox",
     image: "images/bloglab-preview.jpeg",
     website:"https://lfz-bloglab.herokuapp.com/"
   },
   {
     title: "tripify",
-    description: "Tripify is an web application for travel enthusiast's who are looking for an easy way to track their budget and spending. The application features data stores through localStorage, and fetches weather updates by sending an XHRHttpRequest to the Weatherbit API once the user has input a valid city.",
+    description: "Tripify is a web application created for travel enthusiasts to track their budget and spending. The application features data stores through localStorage and fetches weather updates by sending an XHRHttpRequest to the Weatherbit API once the user has input a valid city.",
     technologies: "HTML5, CSS3, JavaScript",
     image: "images/tripify-preview.jpeg",
     website: "https://kenkieu.github.io/tripify/"
