@@ -43,7 +43,7 @@ export default function Footer(props) {
       </div>
       <div className="py-6 flex m-auto w-2/3 justify-center tracking-wide text-xs">
         <a
-          href="https://drive.google.com/file/d/1jJOI7WTz-hdoLphXXs86wYW2OEuADjoO/view?usp=sharing"
+          href="https://drive.google.com/file/d/1fUDwZD4h_6BMaAeL5EwF9EBPMmS6Wfao/view?usp=sharing"
           className="md:hover:text-green-800 md:hover:text-opacity-50 duration-700"
         >
           VIEW RESUME
