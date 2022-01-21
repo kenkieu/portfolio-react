@@ -5,7 +5,7 @@ export default function Work() {
   const projects = [
   {
     title: "stratana",
-    description: "Stratana is a web application for businesses that need end-to-end strategy management and SaaS solutions. Unique to my previous projects, the website was commissioned and was a collaborative effort between myself and a lead developer. The website features modern frameworks and libraries such as Next.js and Tailwind to showcase a compelling front-end design.",
+    description: "A company website for Stratana. Stratana offers businesses end-to-end strategy management and SaaS solutions. Unique to my previous projects, the website was commissioned and was a collaborative effort between myself and a lead developer. The website features modern frameworks and libraries such as Next.js and Tailwind to showcase a compelling front-end design.",
     technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js, Node.js",
     image: "images/stratana-preview.jpeg",
     website:"https://stratana.com/"
