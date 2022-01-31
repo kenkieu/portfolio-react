@@ -39,34 +39,38 @@ export default function AboutMe() {
           </h3>
         </div>
 
-        <div className="text-gray-600 max-w-6xl mx-auto mt-10">
+        <div className="text-gray-600 max-w-5xl mx-auto mt-10">
           <p className="leading-10">
-            My name is Ken, but you can consider me a traveler, tech
-            enthusiast, and web developer! I attended college at California State
+            My name is Ken, but you can consider me a traveler, tech enthusiast,
+            and web developer! I attended college at California State
             University, Long Beach, and received a Bachelor's degree in
             Psychology. While I learned invaluable skills, such as patience,
             communication, and creativity, I came to realize that psychology was
             not a fit for me. That was when I went back to my roots in
-            technology and started considering my options. In my time networking,
-            I met with a friend that found success with web development through a
-            boot camp named LearningFuze, and he highly recommended I attend if I
-            was interested.
+            technology and started considering my options. In my time
+            networking, I met with a friend that found success with web
+            development through a boot camp named LearningFuze, and he highly
+            recommended I attend if I was interested.
           </p>
           <p className="leading-10 my-8">
-            For months I continued to work my full-time job while learning how to
-            code on my own, and when the time came, I parted ways and enrolled in
-            LearningFuze where I would dedicate 60-70 hours per week to
-            programming. By the end of the curriculum, I had learned how to
-            develop a full-stack application utilizing <span className="italic">PostgreSQL, Express.js,
-            React.js, and Node.js</span>. My drive for learning and self-development has led me to a field that
-            is not only rewarding but also aligns with my core interests. I am
-            truly thankful to have this opportunity &mdash; but this is only the
-            beginning of my journey. I can&apos;t wait to see what the future has
-            in store for me!
+            For months I continued to work my full-time job while learning how
+            to code on my own, and when the time came, I parted ways and
+            enrolled in LearningFuze where I would dedicate 60-70 hours per week
+            to programming. By the end of the curriculum, I had learned how to
+            develop a full-stack application utilizing{" "}
+            <span className="italic">
+              PostgreSQL, Express.js, React.js, and Node.js
+            </span>
+            . My drive for learning and self-development has led me to a field
+            that is not only rewarding but also aligns with my core interests. I
+            am truly thankful to have this opportunity &mdash; but this is only
+            the beginning of my journey. I can&apos;t wait to see what the
+            future has in store for me!
           </p>
           <p className="leading-10">
             <span className="font-semibold">Fun Fact:</span> I own 10 pairs of
-            headphones, and my favorite travel destination is Disney World in Orlando, FL.
+            headphones, and my favorite travel destination is Disney World in
+            Orlando, FL.
           </p>
         </div>
       </div>
