@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import AboutMe from "./pages/about-me";
 import Work from "./pages/work";
+import NotFound from "./pages/not-found";
 
 export function App() {
   let [path, updatePath] = useState(window.location.pathname);
@@ -23,23 +24,7 @@ export function App() {
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="work" element={<Work />} />
-        <Route
-          path="*"
-          element={
-            <main className="pt-20">
-              <div className="flex flex-wrap justify-center">
-                <p className="text-center my-8 text-xl w-full">
-                  Oops, did you lose your way?
-                </p>
-                <button className="bg-green-800 bg-opacity-70 text-white rounded-sm p-3">
-                  <Link to="/" className="cursor-pointer">
-                    Return Home
-                  </Link>
-                </button>
-              </div>
-            </main>
-          }
-        />
+        <Route path="*" element={<NotFound></NotFound>} />
       </Routes>
       <Footer updatePath={updatePath} scrollTop={scrollTop} />
     </>

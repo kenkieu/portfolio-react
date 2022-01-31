@@ -3,30 +3,34 @@ import Project from "../components/project";
 
 export default function Work() {
   const projects = [
-  {
-    title: "stratana",
-    description: "A company website for Stratana. Stratana offers businesses end-to-end strategy management and SaaS solutions. Unique to my previous projects, the website was commissioned and was a collaborative effort between myself and a lead developer. The website features modern frameworks and libraries such as Next.js and Tailwind to showcase a compelling front-end design.",
-    technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js, Node.js",
-    image: "images/stratana-preview.jpeg",
-    website:"https://stratana.com/"
-  },
-  {
-    title: "bloglab",
-    description: "Bloglab is a full-stack web application for writers, bloggers, and avid journalists to document their adventures. It has the modern features of social media, such as likes and comments, and also incorporates JSON Web Token for authentication, and Argon2 for hashing passwords.",
-    technologies: "HTML5, CSS3, PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox",
-    image: "images/bloglab-preview.jpeg",
-    website:"https://lfz-bloglab.herokuapp.com/"
-  },
-  {
-    title: "tripify",
-    description: "Tripify is a web application created for travel enthusiasts to track their budget and spending. The application features data stores through localStorage and fetches weather updates by sending an XHRHttpRequest to the Weatherbit API once the user has input a valid city.",
-    technologies: "HTML5, CSS3, JavaScript",
-    image: "images/tripify-preview.jpeg",
-    website: "https://kenkieu.github.io/tripify/"
-  },
-]
+    {
+      title: "stratana",
+      description:
+        "A company website for Stratana. Stratana offers businesses end-to-end strategy management and SaaS solutions. Unique to my previous projects, the website was commissioned and was a collaborative effort between myself and a lead developer. The website features modern frameworks and libraries such as Next.js and Tailwind to showcase a compelling front-end design.",
+      technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js, Node.js",
+      image: "images/stratana-preview.jpeg",
+      website: "https://stratana.com/",
+    },
+    {
+      title: "bloglab",
+      description:
+        "Bloglab is a full-stack web application for writers, bloggers, and avid journalists to document their adventures. It has the modern features of social media, such as likes and comments, and also incorporates JSON Web Token for authentication, and Argon2 for hashing passwords.",
+      technologies:
+        "HTML5, CSS3, PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox",
+      image: "images/bloglab-preview.jpeg",
+      website: "https://lfz-bloglab.herokuapp.com/",
+    },
+    {
+      title: "tripify",
+      description:
+        "Tripify is a web application created for travel enthusiasts to track their budget and spending. The application features data stores through localStorage and fetches weather updates by sending an XHRHttpRequest to the Weatherbit API once the user has input a valid city.",
+      technologies: "HTML5, CSS3, JavaScript",
+      image: "images/tripify-preview.jpeg",
+      website: "https://kenkieu.github.io/tripify/",
+    },
+  ];
   return (
-    <div className="max-w-screen-xl mx-auto px-3 md:px-6 mt-24">
+    <main className="max-w-screen-xl mx-auto px-3 md:px-6 mt-24">
       <div className="text-center my-12">
         <h2 className="leading-6 text-green-800 text-opacity-70 font-semibold tracking-wide uppercase">
           Single Page Applications
@@ -36,7 +40,7 @@ export default function Work() {
         </h3>
       </div>
       <div className="grid gap-12">
-        {projects.map(project => {
+        {projects.map((project) => {
           return (
             <div key={project.title}>
               <Project
@@ -45,11 +49,11 @@ export default function Work() {
                 technologies={project.technologies}
                 image={project.image}
                 website={project.website}
-                />
+              />
             </div>
           );
         })}
       </div>
-    </div>
+    </main>
   );
 }

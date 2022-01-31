@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 export default function AboutMe() {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 md:px-6 mt-24">
+    <main className="max-w-screen-xl mx-auto px-4 md:px-6 mt-24">
       <div className="relative">
         <h1 className="banner text-white text-center font-bold text-xl px-2 md:text-4xl">
           Hello I&apos;m Ken,
@@ -74,6 +74,6 @@ export default function AboutMe() {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
