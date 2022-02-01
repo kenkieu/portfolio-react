@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import AboutMe from "./pages/about-me";
@@ -24,7 +24,7 @@ export function App() {
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="work" element={<Work />} />
-        <Route path="*" element={<NotFound></NotFound>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer updatePath={updatePath} scrollTop={scrollTop} />
     </>

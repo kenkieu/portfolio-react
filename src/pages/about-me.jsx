@@ -3,9 +3,9 @@ import Typewriter from "typewriter-effect";
 
 export default function AboutMe() {
   return (
-    <main className="max-w-screen-xl mx-auto px-4 md:px-6 mt-24">
+    <main className="max-w-screen-xl mx-auto px-4 md:px-6 mt-28">
       <div className="relative">
-        <h1 className="banner text-white text-center font-bold text-xl px-2 md:text-4xl">
+        <h1 className="banner text-white text-center w-full font-bold text-3xl px-2 md:text-4xl">
           Hello I&apos;m Ken,
           <span className="italic">
             <Typewriter
@@ -29,17 +29,122 @@ export default function AboutMe() {
           alt="ken-palomar-park"
         />
       </div>
-      <div className="my-12">
+      <div className="my-16 max-w-4xl mx-auto relative">
+        <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+          <div
+            className="relative h-full text-lg max-w-prose mx-auto"
+            aria-hidden="true"
+          >
+            <svg
+              className="absolute top-12 left-full transform translate-x-32"
+              width={404}
+              height={384 / 2}
+              fill="none"
+              viewBox="0 0 404 192"
+            >
+              <defs>
+                <pattern
+                  id="74b3fd99-0a6f-4271-bef2-e80eeafdf357"
+                  x={0}
+                  y={0}
+                  width={20}
+                  height={20}
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    x={0}
+                    y={0}
+                    width={4}
+                    height={4}
+                    className="text-gray-200"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width={404}
+                height={384}
+                fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"
+              />
+            </svg>
+            <svg
+              className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
+              width={404}
+              height={384 / 2}
+              fill="none"
+              viewBox="0 0 404 192"
+            >
+              <defs>
+                <pattern
+                  id="f210dbf6-a58d-4871-961e-36d5016a0f49"
+                  x={0}
+                  y={0}
+                  width={20}
+                  height={20}
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    x={0}
+                    y={0}
+                    width={4}
+                    height={4}
+                    className="text-gray-200"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width={404}
+                height={384}
+                fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
+              />
+            </svg>
+            <svg
+              className="absolute bottom-0 left-full transform translate-x-32"
+              width={404}
+              height={384 / 2}
+              fill="none"
+              viewBox="0 0 404 192"
+            >
+              <defs>
+                <pattern
+                  id="d3eb07ae-5182-43e6-857d-35c643af9034"
+                  x={0}
+                  y={0}
+                  width={20}
+                  height={20}
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    x={0}
+                    y={0}
+                    width={4}
+                    height={4}
+                    className="text-gray-200"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width={404}
+                height={384}
+                fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"
+              />
+            </svg>
+          </div>
+        </div>
         <div className="text-center">
           <h2 className="leading-6 text-green-800 text-opacity-70 font-semibold tracking-wide uppercase">
             Meet Ken
           </h2>
-          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <h3 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 md:text-3xl">
             About Me
           </h3>
         </div>
-
-        <div className="text-gray-600 max-w-5xl mx-auto mt-10">
+        <div className="text-gray-600 mt-16">
+          <h2 className="mb-4 font-bold text-lg text-gray-900">
+            Why did you make a career change?
+          </h2>
           <p className="leading-10">
             My name is Ken, but you can consider me a traveler, tech enthusiast,
             and web developer! I attended college at California State
@@ -52,7 +157,10 @@ export default function AboutMe() {
             development through a boot camp named LearningFuze, and he highly
             recommended I attend if I was interested.
           </p>
-          <p className="leading-10 my-8">
+          <h2 className="mt-12 mb-4 font-bold text-lg text-gray-900">
+            My fourteen week journey into development
+          </h2>
+          <p className="leading-10">
             For months I continued to work my full-time job while learning how
             to code on my own, and when the time came, I parted ways and
             enrolled in LearningFuze where I would dedicate 60-70 hours per week
@@ -67,10 +175,10 @@ export default function AboutMe() {
             the beginning of my journey. I can&apos;t wait to see what the
             future has in store for me!
           </p>
-          <p className="leading-10">
-            <span className="font-semibold">Fun Fact:</span> I own 10 pairs of
-            headphones, and my favorite travel destination is Disney World in
-            Orlando, FL.
+          <p className="leading-10 mt-12">
+            <span className="font-bold text-gray-900">Fun Fact:</span> I own 10
+            pairs of headphones, and my favorite travel destination is Disney
+            World in Orlando, FL.
           </p>
         </div>
       </div>

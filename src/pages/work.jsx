@@ -35,7 +35,7 @@ export default function Work() {
         <h2 className="leading-6 text-green-800 text-opacity-70 font-semibold tracking-wide uppercase">
           Single Page Applications
         </h2>
-        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <h3 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 md:text-3xl">
           My Projects
         </h3>
       </div>

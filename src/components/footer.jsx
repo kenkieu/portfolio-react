@@ -5,10 +5,7 @@ export default function Footer(props) {
   const { updatePath, scrollTop } = props;
 
   return (
-    <footer
-      id="contact"
-      className="bg-gray-100 mt-12 py-2 md:py-6 lg:py-8"
-    >
+    <footer id="contact" className="bg-gray-100 mt-16 py-2 md:py-6 lg:py-8">
       <div className="flex m-auto w-2/3 justify-center my-8">
         <a
           href="mailto: kenkieu93@gmail.com"
