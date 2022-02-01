@@ -38,7 +38,7 @@ export default function AboutMe() {
             <svg
               className="absolute top-12 left-full transform translate-x-32"
               width={404}
-              height={384 / 2}
+              height={384}
               fill="none"
               viewBox="0 0 404 192"
             >
@@ -70,7 +70,7 @@ export default function AboutMe() {
             <svg
               className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
               width={404}
-              height={384 / 2}
+              height={384}
               fill="none"
               viewBox="0 0 404 192"
             >
@@ -100,9 +100,9 @@ export default function AboutMe() {
               />
             </svg>
             <svg
-              className="absolute bottom-0 left-full transform translate-x-32"
+              className="absolute bottom-12 left-full transform translate-x-32"
               width={404}
-              height={384 / 2}
+              height={384}
               fill="none"
               viewBox="0 0 404 192"
             >
@@ -165,11 +165,16 @@ export default function AboutMe() {
             to code on my own, and when the time came, I parted ways and
             enrolled in LearningFuze where I would dedicate 60-70 hours per week
             to programming. By the end of the curriculum, I had learned how to
-            develop a full-stack application utilizing{" "}
-            <span className="italic">
-              PostgreSQL, Express.js, React.js, and Node.js
+            develop a full-stack application utilizing modern technologies.{" "}
+            <span>
+              <ul className="list-disc ml-6 my-6">
+                <li>PostgreSQL</li>
+                <li>Express.js</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+              </ul>
             </span>
-            . My drive for learning and self-development has led me to a field
+            My drive for learning and self-development has led me to a field
             that is not only rewarding but also aligns with my core interests. I
             am truly thankful to have this opportunity &mdash; but this is only
             the beginning of my journey. I can&apos;t wait to see what the
