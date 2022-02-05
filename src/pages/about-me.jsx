@@ -56,7 +56,7 @@ export default function AboutMe() {
                     y={0}
                     width={4}
                     height={4}
-                    className="text-gray-200"
+                    className="text-green-800 text-opacity-10"
                     fill="currentColor"
                   />
                 </pattern>
@@ -88,7 +88,7 @@ export default function AboutMe() {
                     y={0}
                     width={4}
                     height={4}
-                    className="text-gray-200"
+                    className="text-green-800 text-opacity-10"
                     fill="currentColor"
                   />
                 </pattern>
@@ -120,7 +120,7 @@ export default function AboutMe() {
                     y={0}
                     width={4}
                     height={4}
-                    className="text-gray-200"
+                    className="text-green-800 text-opacity-10"
                     fill="currentColor"
                   />
                 </pattern>
@@ -167,12 +167,26 @@ export default function AboutMe() {
             to programming. By the end of the curriculum, I had learned how to
             develop a full-stack application utilizing modern technologies.{" "}
             <span>
-              <ul className="list-disc ml-6 my-6">
+              {/* <ul className="list-disc ml-6 my-6">
                 <li>PostgreSQL</li>
                 <li>Express.js</li>
                 <li>React.js</li>
                 <li>Node.js</li>
-              </ul>
+              </ul> */}
+              <div className="grid grid-cols-2 gap-1 text-center my-12 font-semibold">
+                <div className="bg-green-800 bg-opacity-50 text-white rounded-md">
+                  PostgreSQL
+                </div>
+                <div className="bg-green-800 bg-opacity-50 text-white rounded-md">
+                  Express.js
+                </div>
+                <div className="bg-green-800 bg-opacity-50 text-white rounded-md">
+                  React.js
+                </div>
+                <div className="bg-green-800 bg-opacity-50 text-white rounded-md">
+                  Node.js
+                </div>
+              </div>
             </span>
             My drive for learning and self-development has led me to a field
             that is not only rewarding but also aligns with my core interests. I
