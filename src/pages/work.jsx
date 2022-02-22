@@ -6,7 +6,7 @@ export default function Work() {
     {
       title: "darkhorse advisor",
       description:
-        "A business website for Darkhorse LLC. build from start to finish in under two weeks. The website utilizes Next.js as the frontend framework and Tailwind library for a minimally aestheic design. Implemented Google Analytics 4 to monitor traffic and track page views.",
+        "A business website for Darkhorse LLC. built from start to finish within one week. The website utilizes Next.js as the frontend framework and Tailwind library for a minimally aestheic design. Implemented Google Analytics 4 to monitor traffic and track page views.",
       technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js, Google Analytics 4",
       image: "images/darkhorse-preview.png",
       website: "https://darkhorseadvisor.com/",
@@ -15,7 +15,7 @@ export default function Work() {
       title: "stratana",
       description:
         "A company website for Stratana. Stratana offers businesses end-to-end strategy management and SaaS solutions. Unique to my previous projects, the website was commissioned and was a collaborative effort between myself and a lead developer. The website features modern frameworks and libraries such as Next.js and Tailwind to showcase a compelling front-end design.",
-      technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js, Google Analytics 3",
+      technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js",
       image: "images/stratana-preview.jpeg",
       website: "https://stratana.com/",
     },
