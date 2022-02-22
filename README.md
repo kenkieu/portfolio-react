@@ -12,7 +12,7 @@ A portfolio to host my projects and resume.
 
 ## Live Demo
 
-Try the application live at [https://kenkieu.link/](https://kenkieu.link/)
+View my portfolio live at [https://kenkieu.link/](https://kenkieu.link/)
 
 ## Features
 

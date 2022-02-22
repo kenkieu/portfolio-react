@@ -4,10 +4,18 @@ import Project from "../components/project";
 export default function Work() {
   const projects = [
     {
+      title: "darkhorse advisor",
+      description:
+        "A business website for Darkhorse LLC. built from start to finish within one week. The website utilizes Next.js as the frontend framework and Tailwind library for a minimally aestheic design. Implemented Google Analytics 4 to monitor traffic and track page views.",
+      technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js, Google Analytics 4",
+      image: "images/darkhorse-preview.png",
+      website: "https://darkhorseadvisor.com/",
+    },
+    {
       title: "stratana",
       description:
         "A company website for Stratana. Stratana offers businesses end-to-end strategy management and SaaS solutions. Unique to my previous projects, the website was commissioned and was a collaborative effort between myself and a lead developer. The website features modern frameworks and libraries such as Next.js and Tailwind to showcase a compelling front-end design.",
-      technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js, Node.js",
+      technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js",
       image: "images/stratana-preview.jpeg",
       website: "https://stratana.com/",
     },
@@ -24,7 +32,7 @@ export default function Work() {
       title: "tripify",
       description:
         "Tripify is a web application created for travel enthusiasts to track their budget and spending. The application features data stores through localStorage and fetches weather updates by sending an XHRHttpRequest to the Weatherbit API once the user has input a valid city.",
-      technologies: "HTML5, CSS3, JavaScript",
+      technologies: "HTML5, CSS3, JavaScript, jQuery",
       image: "images/tripify-preview.jpeg",
       website: "https://kenkieu.github.io/tripify/",
     },
