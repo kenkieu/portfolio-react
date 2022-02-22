@@ -7,7 +7,7 @@ export default function Work() {
       title: "darkhorse advisor",
       description:
         "A business website for Darkhorse LLC. built from start to finish within one week. The website utilizes Next.js as the frontend framework and Tailwind library for a minimally aestheic design. Implemented Google Analytics 4 to monitor traffic and track page views.",
-      technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js, Google Analytics 4",
+      technologies: "HTML5, CSS3, SCSS, JavaScript, Tailwind, Next.js, Google Analytics 4",
       image: "images/darkhorse-preview.png",
       website: "https://darkhorseadvisor.com/",
     },
@@ -15,7 +15,7 @@ export default function Work() {
       title: "stratana",
       description:
         "A company website for Stratana. Stratana offers businesses end-to-end strategy management and SaaS solutions. Unique to my previous projects, the website was commissioned and was a collaborative effort between myself and a lead developer. The website features modern frameworks and libraries such as Next.js and Tailwind to showcase a compelling front-end design.",
-      technologies: "HTML5, CSS3, SCSS, Tailwind, Next.js",
+      technologies: "HTML5, CSS3, SCSS, JavaScript, Tailwind, Next.js",
       image: "images/stratana-preview.jpeg",
       website: "https://stratana.com/",
     },
@@ -24,7 +24,7 @@ export default function Work() {
       description:
         "Bloglab is a full-stack web application for writers, bloggers, and avid journalists to document their adventures. It has the modern features of social media, such as likes and comments, and also incorporates JSON Web Token for authentication, and Argon2 for hashing passwords.",
       technologies:
-        "HTML5, CSS3, PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox",
+        "HTML5, CSS3, JavaScript, PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox",
       image: "images/bloglab-preview.jpeg",
       website: "https://lfz-bloglab.herokuapp.com/",
     },
