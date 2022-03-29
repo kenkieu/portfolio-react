@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import AboutMe from "./pages/about-me";
 import Work from "./pages/work";
+import Contact from "./pages/contact";
 import NotFound from "./pages/not-found";
 
 export function App() {
@@ -24,6 +25,7 @@ export function App() {
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="work" element={<Work />} />
+        <Route path="contact" element={<Contact />}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer updatePath={updatePath} scrollTop={scrollTop} />

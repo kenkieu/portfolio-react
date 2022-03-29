@@ -33,11 +33,23 @@ export default function Navbar(props) {
               {navItem}
             </Link>
           </li>
-          <li className="md:hover:text-green-800 md:hover:text-opacity-50 duration-700 pl-2">
-            <a href="#contact" className="cursor-pointer">
+          <li>
+            <Link
+              to="/contact"
+              onClick={() => {
+                updatePath("/contact");
+                scrollTop();
+              }}
+              className="cursor-pointer md:hover:text-green-800 md:hover:text-opacity-50 duration-700"
+            >
               Contact
-            </a>
+            </Link>
           </li>
+          {/* <li className="md:hover:text-green-800 md:hover:text-opacity-50 duration-700 pl-2">
+            <a href="#contact" className="cursor-pointer">
+              Social
+            </a>
+          </li> */}
         </ul>
       </nav>
     </div>
