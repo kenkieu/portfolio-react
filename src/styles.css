@@ -6,6 +6,7 @@ body {
 input, textarea{
   outline-color: #166534;
   opacity: 70%;
+  background-color: #fff;
 }
 
 .font-playfair {

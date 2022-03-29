@@ -59,9 +59,25 @@ const onSubmit = async (event) => {
           }
           <form onSubmit={onSubmit} className="mx-auto">
             <label className="sr-only" htmlFor="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name" required className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-8 sm:mb-6" onChange={createMessage}/>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+              className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-8 sm:mb-6"
+              onChange={createMessage}
+            />
             <label className="sr-only" htmlFor="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email" required className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-8 sm:mb-6" onChange={createMessage} />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+              className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-8 sm:mb-6"
+              onChange={createMessage}
+            />
             <label className="sr-only" htmlFor="message">Message</label>
             <textarea
               id="message"
