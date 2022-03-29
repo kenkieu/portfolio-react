@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Footer(props) {
-  const { updatePath, scrollTop } = props;
+  const { scrollTop } = props;
 
   return (
     <footer id="contact" className="bg-gray-100 mt-16 py-2 md:py-6 lg:py-8">
@@ -30,7 +30,6 @@ export default function Footer(props) {
         <Link
           to="/"
           onClick={() => {
-            updatePath("/");
             scrollTop();
           }}
           className="cursor-pointer md:hover:text-green-800 md:hover:text-opacity-50 duration-700"

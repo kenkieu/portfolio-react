@@ -2,8 +2,7 @@ import { React } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
-  const { updatePath, togglePath, scrollTop } = props;
-  const navItem = window.location.pathname === "/" ? "Work" : "About";
+  const { scrollTop } = props;
 
   return (
     <div className="relative z-10">
@@ -11,7 +10,6 @@ export default function Navbar(props) {
         <Link
           to={"/"}
           onClick={() => {
-            updatePath("/");
             scrollTop();
           }}
           className="cursor-pointer"
@@ -21,35 +19,30 @@ export default function Navbar(props) {
           </div>
         </Link>
         <ul className="flex font-medium">
-          <li className="px-4 md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
+          <li className="md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
             <Link
-              to={togglePath}
-              onClick={() => {
-                updatePath(togglePath);
-                scrollTop();
-              }}
+              to="/"
               className="cursor-pointer"
             >
-              {navItem}
+              About
+            </Link>
+          </li>
+          <li className="px-4 md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
+            <Link
+              to="/work"
+              className="cursor-pointer"
+            >
+              Work
             </Link>
           </li>
           <li>
             <Link
               to="/contact"
-              onClick={() => {
-                updatePath("/contact");
-                scrollTop();
-              }}
               className="cursor-pointer md:hover:text-green-800 md:hover:text-opacity-50 duration-700"
             >
               Contact
             </Link>
           </li>
-          {/* <li className="md:hover:text-green-800 md:hover:text-opacity-50 duration-700 pl-2">
-            <a href="#contact" className="cursor-pointer">
-              Social
-            </a>
-          </li> */}
         </ul>
       </nav>
     </div>

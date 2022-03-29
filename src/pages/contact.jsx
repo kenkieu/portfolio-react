@@ -16,13 +16,8 @@ export default function Contact(props) {
     message:''
   };
 
-  console.log('inquiry', inquiry)
-
   function createMessage(event){
     const field = event.target.name;
-    console.log(field)
-    console.log(event.target.value)
-    console.log('inside function', inquiry)
     inquiry[field] = event.target.value;
   }
 
@@ -47,7 +42,7 @@ const onSubmit = async (event) => {
         </h3>
       </div>
       <div className="sm:grid grid-cols-4 gap-12">
-        <div className="mx-auto col-span-2 px-8 mb-8 sm:mb-6">
+        <div className="mx-auto col-span-2 sm:px-8 mb-8 sm:mb-6 pl-4 sm:pl-0">
           <h2 className="text-xl leading-8 font-bold tracking-tight text-gray-900 md:text-2xl">
             Get In Touch
           </h2>
