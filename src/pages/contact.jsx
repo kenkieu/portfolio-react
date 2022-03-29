@@ -32,7 +32,7 @@ const onSubmit = async (event) => {
 };
 
   return(
-    <main className="max-w-screen-xl mx-auto px-3 md:px-6 mt-24">
+    <main className="max-w-screen-lg mx-auto px-3 md:px-6 mt-24">
       <div className="text-center my-12">
         <h2 className="leading-6 text-green-800 text-opacity-70 font-semibold tracking-wide uppercase">
           Business Inquiries
@@ -41,12 +41,15 @@ const onSubmit = async (event) => {
           Contact Me
         </h3>
       </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <h2 className="text-center text-xl leading-8 font-bold tracking-tight text-gray-900 md:text-2xl">
+      <div className="grid grid-cols-4 gap-12">
+        <div className="col-span-2 px-12">
+          <h2 className="text-xl leading-8 font-bold tracking-tight text-gray-900 md:text-2xl">
             Get In Touch
           </h2>
-          <p></p>
+          <p className="mt-3 text-lg leading-6 text-gray-500">
+            Let's chat, tell me about your project!
+          </p>
+
         </div>
         <div className="col-span-2">
           <form onSubmit={onSubmit} className="mx-auto">
