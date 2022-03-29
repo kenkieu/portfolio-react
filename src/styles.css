@@ -3,6 +3,11 @@ body {
   background-color: #f9fafb;
 }
 
+input, textarea{
+  outline-color: #166534;
+  opacity: 70%;
+}
+
 .font-playfair {
   font-family: Playfair Display, sans-serif !important;
 }
