@@ -1,34 +1,39 @@
-import React from "react";
+import React, {useState} from "react";
 import { useFormspark } from "@formspark/use-formspark";
 
 const FORMSPARK_ID = process.env.REACT_APP_FORMSPARK_ID;
 
 export default function Contact(props) {
 
-const [submit, submitting] = useFormspark({
-  formId: FORMSPARK_ID,
-});
+  const [formStatus, setFormStatus] = useState(null);
+  const [submit, submitting] = useFormspark({
+    formId: FORMSPARK_ID,
+  });
 
-const inquiry = {
-  name: '',
-  email: '',
-  message:''
-};
+  const inquiry = {
+    name: '',
+    email: '',
+    message:''
+  };
 
-console.log('inquiry', inquiry)
+  console.log('inquiry', inquiry)
 
-function createMessage(event){
-  const field = event.target.name;
-  console.log(field)
-  console.log(event.target.value)
-  console.log('inside function', inquiry)
-  inquiry[field] = event.target.value;
-}
+  function createMessage(event){
+    const field = event.target.name;
+    console.log(field)
+    console.log(event.target.value)
+    console.log('inside function', inquiry)
+    inquiry[field] = event.target.value;
+  }
 
 const onSubmit = async (event) => {
   event.preventDefault();
-  await submit({ inquiry });
-  alert("Form submitted");
+  try{
+    await submit({ inquiry });
+    setFormStatus(()=> true)
+  } catch{
+    setFormStatus(()=> false)
+  }
 };
 
   return(
@@ -49,9 +54,14 @@ const onSubmit = async (event) => {
           <p className="mt-3 text-lg leading-6 text-gray-500">
             Let's chat, tell me about your project!
           </p>
-
         </div>
         <div className="col-span-2">
+          {formStatus === true &&
+            <div className="mb-6 rounded-md text-gray-900 bg-green-100 py-4 text-center">Thank you for your inquiry!</div>
+          }
+          {formStatus === false &&
+            <div className="mb-6 rounded-md text-gray-900 bg-red-100 py-4 px-4 text-center">Sorry, we encountered an error with your submission. Please try again later!</div>
+          }
           <form onSubmit={onSubmit} className="mx-auto">
             <label className="sr-only" htmlFor="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Name" required className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-6" onChange={createMessage}/>
