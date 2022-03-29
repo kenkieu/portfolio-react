@@ -1,15 +1,13 @@
-import { React, useState } from "react";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import AboutMe from "./pages/about-me";
 import Work from "./pages/work";
+import Contact from "./pages/contact";
 import NotFound from "./pages/not-found";
 
 export function App() {
-  let [path, updatePath] = useState(window.location.pathname);
-  const togglePath = path === "/" ? (path = "/work") : (path = "/");
-
   function scrollTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -17,16 +15,15 @@ export function App() {
   return (
     <>
       <Navbar
-        updatePath={updatePath}
-        togglePath={togglePath}
         scrollTop={scrollTop}
       />
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="work" element={<Work />} />
+        <Route path="contact" element={<Contact />}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer updatePath={updatePath} scrollTop={scrollTop} />
+      <Footer scrollTop={scrollTop} />
     </>
   );
 }

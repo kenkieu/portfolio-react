@@ -174,16 +174,16 @@ export default function AboutMe() {
                 <li>Node.js</li>
               </ul> */}
               <div className="grid grid-cols-2 gap-1 text-center my-12 font-semibold">
-                <div className="bg-green-800 bg-opacity-50 text-white rounded-md">
+                <div className="bg-green-800 bg-opacity-70 text-white rounded-md">
                   PostgreSQL
                 </div>
-                <div className="bg-green-800 bg-opacity-50 text-white rounded-md">
+                <div className="bg-green-800 bg-opacity-70 text-white rounded-md">
                   Express.js
                 </div>
-                <div className="bg-green-800 bg-opacity-50 text-white rounded-md">
+                <div className="bg-green-800 bg-opacity-70 text-white rounded-md">
                   React.js
                 </div>
-                <div className="bg-green-800 bg-opacity-50 text-white rounded-md">
+                <div className="bg-green-800 bg-opacity-70 text-white rounded-md">
                   Node.js
                 </div>
               </div>
