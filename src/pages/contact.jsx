@@ -1,23 +1,35 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
 import { useFormspark } from "@formspark/use-formspark";
+
+const FORMSPARK_ID = process.env.REACT_APP_FORMSPARK_ID;
 
 export default function Contact(props) {
 
-const FORMSPARK_FORM_ID = process.env.FORMSPARK_FORM_ID;
+const [submit, submitting] = useFormspark({
+  formId: FORMSPARK_ID,
+});
 
-// const Application = () => {
-  const [submit, submitting] = useFormspark({
-    formId: FORMSPARK_FORM_ID,
-  });
+const inquiry = {
+  name: '',
+  email: '',
+  message:''
+};
 
-  const [message, setMessage] = useState("");
+console.log('inquiry', inquiry)
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    await submit({ message });
-    alert("Form submitted");
-  };
+function createMessage(event){
+  const field = event.target.name;
+  console.log(field)
+  console.log(event.target.value)
+  console.log('inside function', inquiry)
+  inquiry[field] = event.target.value;
+}
+
+const onSubmit = async (event) => {
+  event.preventDefault();
+  await submit({ inquiry });
+  alert("Form submitted");
+};
 
   return(
     <main className="max-w-screen-xl mx-auto px-3 md:px-6 mt-24">
@@ -38,19 +50,20 @@ const FORMSPARK_FORM_ID = process.env.FORMSPARK_FORM_ID;
         </div>
         <div className="col-span-2">
           <form onSubmit={onSubmit} className="mx-auto">
-            <label className="sr-only" for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name" required className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-6" />
-            <label className="sr-only" for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email" required="" className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-6" />
-            <label className="sr-only" for="message">Message</label>
+            <label className="sr-only" htmlFor="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" required className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-6" onChange={createMessage}/>
+            <label className="sr-only" htmlFor="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-6" onChange={createMessage} />
+            <label className="sr-only" htmlFor="message">Message</label>
             <textarea
               id="message"
               name="message"
               placeholder="Message"
-              required=""
+              required
               className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md mb-6"
+              onChange={createMessage}
             ></textarea>
-            <button type="submit" disabled={submitting} className="inline-flex justify-center py-2 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-green-800 bg-opacity-70 hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Send</button>
+            <button type="submit" disabled={submitting} className="inline-flex justify-center py-2 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-green-800 bg-opacity-70 hover:bg-opacity-80 focus:outline-none">Send</button>
           </form>
         </div>
       </div>
