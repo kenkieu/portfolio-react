@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 export default function AboutMe() {
   useEffect(() => {
-    document.title = "Ken Kieu | About Me"
+    document.title = "About Me | Ken Kieu"
   }, []);
 
   return (

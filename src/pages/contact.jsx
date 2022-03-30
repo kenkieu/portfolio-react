@@ -5,7 +5,7 @@ const FORMSPARK_ID = process.env.REACT_APP_FORMSPARK_ID;
 
 export default function Contact(props) {
   useEffect(() => {
-    document.title = "Ken Kieu | Contact"
+    document.title = "Contact Me | Ken Kieu"
   }, []);
 
   const [formStatus, setFormStatus] = useState(null);

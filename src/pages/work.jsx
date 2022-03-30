@@ -3,7 +3,7 @@ import Project from "../components/project";
 
 export default function Work() {
   useEffect(() => {
-    document.title = "Ken Kieu | My Work"
+    document.title = "My Work | Ken Kieu"
   }, []);
   const projects = [
     {
