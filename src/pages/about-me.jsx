@@ -41,10 +41,10 @@ export default function AboutMe() {
           >
             <svg
               className="absolute top-12 left-full transform translate-x-32"
-              width={404}
+              width={204}
               height={384}
               fill="none"
-              viewBox="0 0 404 192"
+              viewBox="0 0 204 192"
             >
               <defs>
                 <pattern
@@ -66,17 +66,17 @@ export default function AboutMe() {
                 </pattern>
               </defs>
               <rect
-                width={404}
+                width={204}
                 height={384}
                 fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"
               />
             </svg>
             <svg
               className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
-              width={404}
+              width={204}
               height={384}
               fill="none"
-              viewBox="0 0 404 192"
+              viewBox="0 0 204 192"
             >
               <defs>
                 <pattern
@@ -98,17 +98,17 @@ export default function AboutMe() {
                 </pattern>
               </defs>
               <rect
-                width={404}
+                width={204}
                 height={384}
                 fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
               />
             </svg>
             <svg
               className="absolute bottom-12 left-full transform translate-x-32"
-              width={404}
+              width={204}
               height={384}
               fill="none"
-              viewBox="0 0 404 192"
+              viewBox="0 0 204 192"
             >
               <defs>
                 <pattern
@@ -130,7 +130,7 @@ export default function AboutMe() {
                 </pattern>
               </defs>
               <rect
-                width={404}
+                width={204}
                 height={384}
                 fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"
               />
