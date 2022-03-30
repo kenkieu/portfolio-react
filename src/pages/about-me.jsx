@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Typewriter from "typewriter-effect";
 
 export default function AboutMe() {
+  useEffect(() => {
+    document.title = "Ken Kieu | About Me"
+  }, []);
+
   return (
     <main className="max-w-screen-xl mx-auto px-4 md:px-6 mt-28">
       <div className="relative">
@@ -17,7 +21,7 @@ export default function AboutMe() {
                   .typeString("tech enthusiast")
                   .pauseFor(1500)
                   .deleteAll()
-                  .typeString("web developer")
+                  .typeString("software engineer")
                   .start();
               }}
             />
@@ -141,21 +145,18 @@ export default function AboutMe() {
             About Me
           </h3>
         </div>
-        <div className="text-gray-600 mt-16">
+        <div className="text-gray-500 mt-16">
           <h2 className="mb-4 font-bold text-lg text-gray-900">
             Why did you make a career change?
           </h2>
           <p className="leading-10">
             My name is Ken, but you can consider me a traveler, tech enthusiast,
-            and web developer! I attended college at California State
-            University, Long Beach, and received a Bachelor's degree in
+            and software engineer! I attended college at California State
+            University, Long Beach, and earned a Bachelor's degree in
             Psychology. While I learned invaluable skills, such as patience,
             communication, and creativity, I came to realize that psychology was
-            not a fit for me. That was when I went back to my roots in
-            technology and started considering my options. In my time
-            networking, I met with a friend that found success with web
-            development through a boot camp named LearningFuze, and he highly
-            recommended I attend if I was interested.
+            not a fit for me. I went back to my roots in
+            technology and while networking, I met with a friend that found success with web development. He highly recommended I attend if I found interest.
           </p>
           <h2 className="mt-12 mb-4 font-bold text-lg text-gray-900">
             My fourteen week journey into development

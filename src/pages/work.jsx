@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Project from "../components/project";
 
 export default function Work() {
+  useEffect(() => {
+    document.title = "Ken Kieu | My Work"
+  }, []);
   const projects = [
     {
       title: "darkhorse advisor",

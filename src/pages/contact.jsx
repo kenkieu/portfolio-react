@@ -1,9 +1,12 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { useFormspark } from "@formspark/use-formspark";
 
 const FORMSPARK_ID = process.env.REACT_APP_FORMSPARK_ID;
 
 export default function Contact(props) {
+  useEffect(() => {
+    document.title = "Ken Kieu | Contact"
+  }, []);
 
   const [formStatus, setFormStatus] = useState(null);
   const [submit, submitting] = useFormspark({
