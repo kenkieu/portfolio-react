@@ -6,7 +6,7 @@ A portfolio to host my projects and resume.
 
 - Next.js
 - Tailwind
-- Node.js
+- FormSpark
 - HTML5
 - CSS3
 
