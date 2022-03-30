@@ -14,23 +14,21 @@ export default function Navbar(props) {
           }}
           className="cursor-pointer"
         >
-          <div className="text-xl tracking-wide font-semibold font-playfair italic transform md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
+          <div className="text-xl tracking-wide font-semibold font-playfair italic transform md:hover:text-green-800 md:hover:text-opacity-70 duration-700">
             Ken Kieu
           </div>
         </Link>
         <ul className="flex font-medium">
-          <li className="md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
+          <li className="cursor-pointer md:hover:text-green-800 md:hover:text-opacity-70 duration-700">
             <Link
               to="/"
-              className="cursor-pointer"
             >
               About
             </Link>
           </li>
-          <li className="px-4 md:hover:text-green-800 md:hover:text-opacity-50 duration-700">
+          <li className="cursor-pointer px-2 sm:px-3 md:hover:text-green-800 md:hover:text-opacity-70 duration-700">
             <Link
               to="/work"
-              className="cursor-pointer"
             >
               Work
             </Link>
@@ -38,7 +36,7 @@ export default function Navbar(props) {
           <li>
             <Link
               to="/contact"
-              className="cursor-pointer md:hover:text-green-800 md:hover:text-opacity-50 duration-700"
+              className="cursor-pointer md:hover:text-green-800 md:hover:text-opacity-70 duration-700"
             >
               Contact
             </Link>

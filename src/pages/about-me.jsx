@@ -168,12 +168,6 @@ export default function AboutMe() {
             to programming. By the end of the curriculum, I had learned how to
             develop a full-stack application utilizing modern technologies.{" "}
             <span>
-              {/* <ul className="list-disc ml-6 my-6">
-                <li>PostgreSQL</li>
-                <li>Express.js</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-              </ul> */}
               <div className="grid grid-cols-2 gap-1 text-center my-12 font-semibold">
                 <div className="bg-green-800 bg-opacity-70 text-white rounded-md">
                   PostgreSQL

@@ -32,7 +32,7 @@ export default function Footer(props) {
           onClick={() => {
             scrollTop();
           }}
-          className="cursor-pointer md:hover:text-green-800 md:hover:text-opacity-50 duration-700"
+          className="cursor-pointer md:hover:text-green-800 md:hover:text-opacity-70 duration-700"
         >
           PORTFOLIO BY KEN KIEU
         </Link>
@@ -40,13 +40,13 @@ export default function Footer(props) {
       <div className="py-6 flex m-auto w-2/3 justify-center tracking-wide text-xs">
         <a
           href="https://drive.google.com/file/d/1TkI8NiJzDyFPNGqW-S3goTef3su8dvmt/view?usp=sharing"
-          className="md:hover:text-green-800 md:hover:text-opacity-50 duration-700"
+          className="md:hover:text-green-800 md:hover:text-opacity-70 duration-700"
         >
           VIEW RESUME
         </a>
       </div>
       <button onClick={scrollTop} className="mt-2 m-auto flex justify-center">
-        <i className="cursor-pointer animate-bounce fas fa-angle-up text-2xl text-green-800 text-opacity-50 flex m-auto w-2/3 justify-center"></i>
+        <i className="cursor-pointer animate-bounce fas fa-angle-up text-2xl text-green-800 text-opacity-70 flex m-auto w-2/3 justify-center"></i>
       </button>
     </footer>
   );
