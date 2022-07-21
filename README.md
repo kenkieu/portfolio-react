@@ -20,6 +20,6 @@ View my portfolio live at [https://kenkieu.link/](https://kenkieu.link/)
 
 ## Stretch Features
 
-- Revamp navbar to be more mobile friendly
+- Revamp navbar to provide more support to mobile layouts
 - Create a dedicated contact page
 - Integrate FormSpark
