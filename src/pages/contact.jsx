@@ -5,6 +5,7 @@ import {AiOutlineLinkedin, AiOutlineMail, AiOutlineGithub} from 'react-icons/ai'
 const FORMSPARK_ID = process.env.REACT_APP_FORMSPARK_ID;
 
 export default function Contact(props) {
+  // Set website title on page change
   useEffect(() => {
     document.title = "Contact Me | Ken Kieu"
   }, []);

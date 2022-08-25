@@ -2,6 +2,7 @@ import React, {useEffect} from "react";
 import Project from "../components/project";
 
 export default function Work() {
+  // Set website title on page change
   useEffect(() => {
     document.title = "My Work | Ken Kieu"
   }, []);

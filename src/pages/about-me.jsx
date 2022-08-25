@@ -2,6 +2,7 @@ import React, {useEffect} from "react";
 import Typewriter from "typewriter-effect";
 
 export default function AboutMe() {
+  // Set website title on page change
   useEffect(() => {
     document.title = "About Me | Ken Kieu"
   }, []);
