@@ -151,13 +151,12 @@ export default function AboutMe() {
             Why did you make a career change?
           </h2>
           <p className="leading-10">
-            My name is Ken, but you can consider me a traveler, tech enthusiast,
-            and software engineer! I attended college at California State
-            University, Long Beach, and earned a Bachelor's degree in
-            Psychology. While I learned invaluable skills, such as patience,
-            communication, and creativity, I came to realize that psychology was
-            not a fit for me. I went back to my roots in
-            technology and while networking, I met with a friend that found success with web development. He highly recommended I attend if I found interest.
+            My name is Ken, but consider me a traveler, tech enthusiast,
+            and software engineer! I&apos;m a proud graduate of California State
+            University Long Beach with a Bachelor's degree in
+            Psychology. My journey in the field taught me invaluable skills, such as patience,
+            communication, and creativity, but I knew my path always belonged
+            in software development.
           </p>
           <h2 className="mt-12 mb-4 font-bold text-lg text-gray-900">
             My fourteen week journey into development
@@ -167,7 +166,7 @@ export default function AboutMe() {
             to code on my own, and when the time came, I parted ways and
             enrolled in LearningFuze where I would dedicate 60-70 hours per week
             to programming. By the end of the curriculum, I had learned how to
-            develop a full-stack application utilizing modern technologies.{" "}
+            develop a full-stack application leveraging modern technologies.{" "}
             <span>
               <div className="grid grid-cols-2 gap-1 text-center my-12 font-semibold">
                 <div className="bg-green-800 bg-opacity-70 text-white rounded-md">
