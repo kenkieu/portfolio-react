@@ -2,6 +2,7 @@ import { React } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
+  //Destructuring props
   const { scrollTop } = props;
 
   return (

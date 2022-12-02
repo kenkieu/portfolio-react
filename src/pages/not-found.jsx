@@ -22,6 +22,7 @@ export default function NotFound() {
                 Please verify the address in the URL and try again.
               </p>
               <span className="text-green-800 hover:text-opacity-90 text-opacity-70 mr-6 mt-12 font-extrabold">
+                {/* Link component for react router to direct back to home page */}
                 <Link to="/">Return Home</Link>
                 <span aria-hidden="true"> →</span>
               </span>
