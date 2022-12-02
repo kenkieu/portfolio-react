@@ -12,7 +12,7 @@ export function App() {
 
   //Config for google tag manager
   const tagManagerArgs = {
-    gtmId = 'GTM-5SR4CDB',
+    gtmId: 'GTM-5SR4CDB',
   }
 
   TagManager.initialize(tagManagerArgs)
