@@ -76,7 +76,7 @@ const socials = [
           </h2>
           {socials.map((social) => {
             return (
-              <a className="flex items-center mt-6 block transform md:hover:text-green-800 md:hover:text-opacity-70 duration-700" href={social.link}>
+              <a key={social.link} className="flex items-center mt-6 block transform md:hover:text-green-800 md:hover:text-opacity-70 duration-700" href={social.link}>
                 <div className="text-green-800 text-opacity-70">
                   {social.icon}
                 </div>

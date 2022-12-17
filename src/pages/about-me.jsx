@@ -22,6 +22,9 @@ export default function AboutMe() {
                   .typeString("tech enthusiast")
                   .pauseFor(1500)
                   .deleteAll()
+                  .typeString("gamer")
+                  .pauseFor(1500)
+                  .deleteAll()
                   .typeString("software engineer")
                   .start();
               }}
@@ -190,9 +193,7 @@ export default function AboutMe() {
             future has in store for me!
           </p>
           <p className="leading-10 mt-12">
-            <span className="font-bold text-gray-900">Fun Fact:</span> I own 10
-            pairs of headphones, and my favorite travel destination is Disney
-            World in Orlando, FL.
+            <span className="font-bold text-gray-900">Fun Fact:</span> I love exploring tech, gadgets and lifestyle products. Some of my favorites are headphones, keyboards, coffee, and watches.
           </p>
         </div>
       </div>
