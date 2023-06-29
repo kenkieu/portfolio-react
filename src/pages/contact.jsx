@@ -26,15 +26,20 @@ export default function Contact(props) {
     inquiry[field] = event.target.value;
   }
 
-const onSubmit = async (event) => {
-  event.preventDefault();
-  try{
-    await submit({ inquiry });
-    setFormStatus(()=> true)
-  } catch{
-    setFormStatus(()=> false)
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    try{
+      await submit({ inquiry });
+      setFormStatus(()=> true)
+    } catch{
+      setFormStatus(()=> false)
+    }
+  };
+
+  function hideAlert(event){
+    event.preventDefault()
+    setFormStatus(()=> null)
   }
-};
 
 const socials = [
   {
@@ -89,10 +94,16 @@ const socials = [
         </div>
         <div className="col-span-2 mt-16 sm:mt-0">
           {formStatus === true &&
-            <div className="mb-6 rounded-md text-gray-900 bg-green-100 py-4 text-center">Thank you for your inquiry!</div>
+          <div id="alert-container" class="flex justify-between mb-6 rounded-md text-green-700 bg-green-100 py-4 pl-4 px-4">
+              <div id="alert" className="font-medium"><strong>Success!</strong> Thank you for your inquiry.</div>
+              <button onClick={hideAlert} id="btn-close-alert" class="font-medium hover:bg-green-200 w-6 rounded-full hover:delay-100">x</button>
+          </div>
           }
           {formStatus === false &&
-            <div className="mb-6 rounded-md text-gray-900 bg-red-100 py-4 px-4 text-center">Sorry, we encountered an error with your submission. Please try again later!</div>
+            <div id="alert-container" class="flex justify-between mb-6 rounded-md text-red-700 bg-red-100 py-4 px-4">
+              <div id="alert" className="font-medium"> Something went wrong. Please try again later!</div>
+              <button onClick={hideAlert} id="btn-close-alert" class="font-medium hover:bg-red-200 w-6 rounded-full hover:delay-100">x</button>
+            </div>
           }
           <form onSubmit={onSubmit} className="mx-auto">
             <label className="sr-only" htmlFor="name">Name</label>
