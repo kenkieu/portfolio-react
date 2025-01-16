@@ -1,17 +1,18 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Project from "../components/project";
 
 export default function Work() {
   // Set website title on page change
   useEffect(() => {
-    document.title = "My Work | Ken Kieu"
+    document.title = "My Work | Ken Kieu";
   }, []);
   const projects = [
     {
       title: "darkhorse advisor",
       description:
         "A business website for Darkhorse LLC. built from start to finish within one week. The website utilizes Next.js as the frontend framework and Tailwind library for a minimally aestheic design. Implemented Google Analytics 4 to monitor traffic and track page views.",
-      technologies: "HTML5, CSS3, SCSS, JavaScript, Tailwind, Next.js, Google Analytics 4",
+      technologies:
+        "HTML5, CSS3, SCSS, JavaScript, Tailwind, Next.js, Google Analytics 4",
       image: "images/darkhorse-preview.png",
       website: "https://darkhorseadvisor.com/",
     },
@@ -45,7 +46,7 @@ export default function Work() {
     <main className="max-w-screen-xl mx-auto px-3 md:px-6 mt-24">
       <div className="text-center my-12">
         <h2 className="leading-6 text-green-800 text-opacity-70 font-semibold tracking-wide uppercase">
-          Single Page Applications
+          Websites & Applications
         </h2>
         <h3 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 md:text-3xl">
           My Projects
