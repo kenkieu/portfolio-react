@@ -31,7 +31,7 @@ export default function Work() {
       technologies:
         "HTML5, CSS3, JavaScript, PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox",
       image: "images/bloglab-preview.jpeg",
-      website: "https://lfz-bloglab.herokuapp.com/",
+      website: "https://bloglab-omega.vercel.app/#sign-in",
     },
     {
       title: "tripify",
