@@ -24,29 +24,29 @@ export default function Work() {
       image: "images/stratana-preview.jpeg",
       website: "https://stratana.com/",
     },
-    // {
-    //   title: "bloglab",
-    //   description:
-    //     "Bloglab is a full-stack web application for writers, bloggers, and avid journalists to document their adventures. It has the modern features of social media, such as likes and comments, and also incorporates JSON Web Token for authentication, and Argon2 for hashing passwords.",
-    //   technologies:
-    //     "HTML5, CSS3, JavaScript, PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox",
-    //   image: "images/bloglab-preview.jpeg",
-    //   website: "https://bloglab-omega.vercel.app/#sign-in",
-    // },
-    // {
-    //   title: "tripify",
-    //   description:
-    //     "Tripify is a web application created for travel enthusiasts to track their budget and spending. The application features data stores through localStorage and fetches weather updates by sending an XHRHttpRequest to the Weatherbit API once the user has input a valid city.",
-    //   technologies: "HTML5, CSS3, JavaScript, jQuery",
-    //   image: "images/tripify-preview.jpeg",
-    //   website: "https://kenkieu.github.io/tripify/",
-    // },
+    {
+      title: "bloglab",
+      description:
+        "Bloglab is a full-stack web application for writers, bloggers, and avid journalists to document their adventures. It has the modern features of social media, such as likes and comments, and also incorporates JSON Web Token for authentication, and Argon2 for hashing passwords.",
+      technologies:
+        "HTML5, CSS3, JavaScript, PostgreSQL, Express.js, React.js, Node.js, Materialize CSS, Flexbox",
+      image: "images/bloglab-preview.jpeg",
+      website: "https://bloglab-dev.vercel.app/",
+    },
+    {
+      title: "tripify",
+      description:
+        "Tripify is a web application created for travel enthusiasts to track their budget and spending. The application features data stores through localStorage and fetches weather updates by sending an XHRHttpRequest to the Weatherbit API once the user has input a valid city.",
+      technologies: "HTML5, CSS3, JavaScript, jQuery",
+      image: "images/tripify-preview.jpeg",
+      website: "https://kenkieu.github.io/tripify/",
+    },
   ];
   return (
     <main className="max-w-screen-xl mx-auto px-3 md:px-6 mt-24">
       <div className="text-center my-12">
         <h2 className="leading-6 text-green-800 text-opacity-70 font-semibold tracking-wide uppercase">
-          Professional Websites
+          Websites & Applications
         </h2>
         <h3 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 md:text-3xl">
           My Projects
