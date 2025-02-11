@@ -5,8 +5,7 @@ export default function Project(props) {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <a href={website}>
         <img
-          // className="w-full rounded-lg shadow-md lg:transform hover:-translate-y-2 duration-700"
-          className="w-full rounded-lg hidden"
+          className="w-full rounded-lg shadow-md lg:transform hover:-translate-y-2 duration-700"
           src={image}
           alt="website"
         />
